@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    position: relative; /* Necessário para o posicionamento correto da seta */
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 90px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 30px 0;
+}
+
+.button-platform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px 20px;
+    width: 330px;
+    border: 2px solid #333;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-platform:hover {
+    background-color: #DDDDDD;
+}
+
+.button-platform img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.button-login {
+    padding: 10px 20px;
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 45px;
+    width: 330px;
+}
+
+.button-login:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.644); 
+}
+
+a {
+    color: #FF6B6B;
+    text-decoration: none;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 30px; /* Ajuste a posição vertical da seta conforme necessário */
+    left: 20px; /* Posiciona a seta à esquerda da tela */
+    cursor: pointer;
+}
+
+.back-arrow img {
+    width: 30px; 
+    height: auto;
+}
+
+.back-arrow:hover {
+    background-image: url('../../img/Vector\ \(1\).svg');
+}
+
+.back-arrow img:hover {
+    opacity: 0; 
+}
+
+@media (max-width: 480px) {
+    .back-arrow {
+        top: 20px; /* Ajuste para a seta ficar mais próxima do topo */
+        left: 15px; /* Ajuste para a seta ficar alinhada à esquerda */
+    }
+
+    button {
+        width: 250px; /* Reduzir a largura do botão para caber na tela */
+    }
+}
+
+/* Media Query para tablets ou telas médias */
+@media (min-width: 375px) and (max-width: 1024px) {
+    
+    .back-arrow {
+        top: 25px; /* Ajuste para a seta ficar em uma posição intermediária */
+        left: 25px; /* Ajuste para a seta ficar mais alinhada na tela maior */
+    }
+
+    button {
+        width: 280px; /* Largura do botão ajustada para telas médias */
+    }
+}
+
+/* Media Query para telas grandes (desktops) */
+@media (min-width: 1024px) {
+    .back-arrow {
+        top: 150px; /* Posição ajustada para telas maiores */
+        left: 200px; /* Ajuste para a seta ficar mais afastada da borda esquerda */
+    }
+
+    button {
+        width: 330px; /* Tamanho do botão no layout grande */
+    }
+}
