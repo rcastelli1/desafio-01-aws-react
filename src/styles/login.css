@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     text-align: center;
-    position: relative; /* Necessário para o posicionamento correto da seta */
+    position: relative; 
 }
 
 h1 {
@@ -67,8 +67,8 @@ a {
 
 .back-arrow {
     position: absolute;
-    top: 30px; /* Ajuste a posição vertical da seta conforme necessário */
-    left: 20px; /* Posiciona a seta à esquerda da tela */
+    top: 30px; 
+    left: 20px;
     cursor: pointer;
 }
 
@@ -87,36 +87,34 @@ a {
 
 @media (max-width: 480px) {
     .back-arrow {
-        top: 20px; /* Ajuste para a seta ficar mais próxima do topo */
-        left: 15px; /* Ajuste para a seta ficar alinhada à esquerda */
+        top: 20px; 
+        left: 15px;
     }
 
     button {
-        width: 250px; /* Reduzir a largura do botão para caber na tela */
+        width: 250px; 
     }
 }
 
-/* Media Query para tablets ou telas médias */
 @media (min-width: 375px) and (max-width: 1024px) {
     
     .back-arrow {
-        top: 25px; /* Ajuste para a seta ficar em uma posição intermediária */
-        left: 25px; /* Ajuste para a seta ficar mais alinhada na tela maior */
+        top: 25px; 
+        left: 25px;
     }
 
     button {
-        width: 280px; /* Largura do botão ajustada para telas médias */
+        width: 280px; 
     }
 }
 
-/* Media Query para telas grandes (desktops) */
 @media (min-width: 1024px) {
     .back-arrow {
-        top: 150px; /* Posição ajustada para telas maiores */
-        left: 200px; /* Ajuste para a seta ficar mais afastada da borda esquerda */
+        top: 150px; 
+        left: 200px;
     }
 
     button {
-        width: 330px; /* Tamanho do botão no layout grande */
+        width: 330px; 
     }
 }
