@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF6064;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    border-color: #000000;
+}
+
+input::placeholder {
+    margin-left: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #333;
+}
+
+button[type="submit"] {
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .logo img {
+        width: 150px;
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .logo img {
+        width: 400px;
+        margin-right: 300px;
+    }
+
+    .form-container {
+        padding: 40px;
+        max-width: 600px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
