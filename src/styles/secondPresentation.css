@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    margin: 0;
+    text-align: center;
+    position: relative; 
+}
+
+p {
+    margin-top: 80px;
+    font-size: 18px;
+    color: #333;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.dots img {
+    width: 40px; 
+    height: 20px; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 45px;
+    width: 330px;
+}
+
+button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.644);
+}
+
+.back-arrow {
+    position: absolute;
+    top: 30px; 
+    left: 20px; 
+    cursor: pointer;
+}
+
+.back-arrow img {
+    width: 30px; 
+    height: auto;
+}
+
+.back-arrow:hover {
+    background-image: url('../../assets/Vector\ \(1\).svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.back-arrow img:hover {
+    opacity: 0; 
+}
+
+@media (max-width: 480px) {
+    .back-arrow {
+        top: 20px; 
+        left: 15px;
+    }
+
+    button {
+        width: 250px; 
+    }
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+    
+    .back-arrow {
+        top: 25px; 
+        left: 25px;
+    }
+
+    button {
+        width: 280px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .back-arrow {
+        top: 150px; 
+        left: 200px;
+    }
+
+    button {
+        width: 330px;
+    }
+}
