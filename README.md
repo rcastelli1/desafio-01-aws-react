@@ -15,6 +15,14 @@
 - Expressões
 - Class
 
+
+---
+
+## Dificuldades realizando o desafio:
+
+- Responsividade
+- Commits Semânticos
+
 ---
 
 ## Funcionalidades:
@@ -75,20 +83,3 @@
 - Senha
 - Confirmação da senha
 9. Se a confirmação de senha for diferente da senha original ele mandará um aviso que a senha não corresponde, quando o usuário fizer o registro ele será direcionado para `succes.html` que mostra o nome e o email do usuário dando um botão para ele voltar à página de login.
-
----
-
-## Imagens Usadas
-
-![Logo](assets/logo-pomo.png)
-![Gif Loading](assets/loading.gif)
-![Seta](assets/Vector.svg)
-![Seta Vermelha](assets/Vector%20(1).svg)
-![Apresentação](assets/img-screen1%201.svg)
-![Segunda Apresentação](assets/img-screen2%201.svg)
-![Terceira Apresentação](assets/img-screen3%201.svg)
-![Bola Vermelha](assets/Rectangle%201.svg)
-![Bola Cinza](assets/Ellipse%201.svg)
-![Logo Facebook](assets/fb-logo.svg)
-![Logo Google](assets/google-logo.svg)
-![Logo Apple](assets/apple-logo.png)
